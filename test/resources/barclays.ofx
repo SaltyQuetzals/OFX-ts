@@ -1,0 +1,2697 @@
+OFXHEADER:100
+        DATA:OFXSGML
+        VERSION:102
+        SECURITY:NONE
+        ENCODING:USASCII
+        CHARSET:1252
+        COMPRESSION:NONE
+        OLDFILEUID:NONE
+        NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20200114115635[-5:EST]
+            <LANGUAGE>ENG
+            <FI><ORG>BANK<FID>55555</FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>GBP
+                <BANKACCTFROM>
+                    <BANKID>492900
+                    <ACCTID>20527890575119
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20191225115635[-5:EST]
+                    <DTEND>20200114115635[-5:EST]
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-75.00
+                        <FITID>+202001130000012
+
+                        <NAME>SARAH COLLYER RACHEL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+202001130000011
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-18.03
+                        <FITID>+202001130000010
+
+                        <NAME>WH SMITH ON 12 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-15.00
+                        <FITID>+202001130000009
+
+                        <NAME>SHANDIZ ON 10 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-6.36
+                        <FITID>+202001130000008
+
+                        <NAME>TESCO STORES 2700 ON 12 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-64.00
+                        <FITID>+202001130000007
+
+                        <NAME>WWW.JOHNLEWIS.COM ON 12 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-54.40
+                        <FITID>+202001130000006
+
+                        <NAME>BP HOVE CONVENIENC ON 11 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-20.89
+                        <FITID>+202001130000005
+
+                        <NAME>AMZNMktplace ON 10 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-11.10
+                        <FITID>+202001130000004
+
+                        <NAME>WWW.FREEDOM-LEISUR ON 11 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-10.67
+                        <FITID>+202001130000003
+
+                        <NAME>RS COMPONENTS ON 10 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-3.94
+                        <FITID>+202001130000002
+
+                        <NAME>MEDIUM MONTHLY USA AMOUNT IN USD
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200113000000[-5:EST]
+                        <TRNAMT>-0.79
+                        <FITID>+202001130000001
+
+                        <NAME>APPLE.COM/BILL IRELAND ON 11 JAN
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-19.70
+                        <FITID>+202001100000008
+
+                        <NAME>CHANDLERS BUILDING ON 09 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-14.49
+                        <FITID>+202001100000007
+
+                        <NAME>SOUTHERN CO-OP 034 ON 09 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+202001100000006
+
+                        <NAME>PARENTPAY E-COM R ON 09 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-7.24
+                        <FITID>+202001100000005
+
+                        <NAME>WWW.TOOLSTATION.CO ON 09 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+202001100000004
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+202001100000003
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-25.00
+                        <FITID>+202001100000002
+
+                        <NAME>NAT FRIEND CURRENT TP9A/00000390
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200110000000[-5:EST]
+                        <TRNAMT>-2.49
+                        <FITID>+202001100000001
+
+                        <NAME>CURRYS 5004071407 CURRYS 5004071
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEP
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>74.95
+                        <FITID>+202001080000008
+
+                        <NAME>HMRC SA 4948463895K00007 BGC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-8.95
+                        <FITID>+202001080000007
+
+                        <NAME>V &amp; H HOLLAND ON 07 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-2.60
+                        <FITID>+202001080000006
+
+                        <NAME>Brighton &amp; Hove Bu ON 06 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+202001080000005
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+202001080000004
+
+                        <NAME>H3G 982330921701060120 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+202001080000003
+
+                        <NAME>H3G 982329726301060120 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-42.98
+                        <FITID>+202001080000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200108000000[-5:EST]
+                        <TRNAMT>-107.90
+                        <FITID>+202001080000001
+
+                        <NAME>BALPA 22132B DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-249.00
+                        <FITID>+202001070000008
+
+                        <NAME>FLIGHTDECK WINGMAN JOSEPH LIDGAR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-15.60
+                        <FITID>+202001070000007
+
+                        <NAME>IZ *Ground Coffee ON 06 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-10.65
+                        <FITID>+202001070000006
+
+                        <NAME>MDS DENTAL CARE ON 06 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-5.78
+                        <FITID>+202001070000005
+
+                        <NAME>BUON APPETITO ON 06 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-2.10
+                        <FITID>+202001070000004
+
+                        <NAME>BHCC-PAYBYPHONEPAR ON 06 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-2.10
+                        <FITID>+202001070000003
+
+                        <NAME>BHCC-PAYBYPHONEPAR ON 06 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-150.00
+                        <FITID>+202001070000002
+
+                        <NAME>HLAM REGULAR SAVIN 01C0221458326
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200107000000[-5:EST]
+                        <TRNAMT>-150.00
+                        <FITID>+202001070000001
+
+                        <NAME>HLAM REGULAR SAVIN 01C0221458226
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>49.50
+                        <FITID>+202001060000016
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 05 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+202001060000015
+
+                        <NAME>SAMUEL LIDGARD SAM FOOD FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+202001060000014
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 05 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-11.67
+                        <FITID>+202001060000013
+
+                        <NAME>RC SECKERS ON 04 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-10.85
+                        <FITID>+202001060000012
+
+                        <NAME>UNITHAI ORIENTAL M ON 04 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-6.36
+                        <FITID>+202001060000011
+
+                        <NAME>GRATITUDE TREE GRO ON 04 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-2.60
+                        <FITID>+202001060000010
+
+                        <NAME>LONDIS ON 04 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-1.04
+                        <FITID>+202001060000009
+
+                        <NAME>TOOLSTATION LTD ON 03 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-127.80
+                        <FITID>+202001060000008
+
+                        <NAME>SECRET CINEMA PRES ON 05 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-71.80
+                        <FITID>+202001060000007
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 05 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-38.39
+                        <FITID>+202001060000006
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 05 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-23.14
+                        <FITID>+202001060000005
+
+                        <NAME>T L C BRIGHTON ON 03 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-0.99
+                        <FITID>+202001060000004
+
+                        <NAME>Kindle Svcs*EZ83J8 LUXEMBOURG ON
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-27.99
+                        <FITID>+202001060000003
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-3.20
+                        <FITID>+202001060000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200106000000[-5:EST]
+                        <TRNAMT>-56.69
+                        <FITID>+202001060000001
+
+                        <NAME>VIRGIN MEDIA PYMTS 403507801001
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-4.00
+                        <FITID>+202001030000007
+
+                        <NAME>Blue Rewards Fee   CB
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-50.00
+                        <FITID>+202001030000006
+
+                        <NAME>CARDTRONICS UK LTD SOUTHERN COOP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-178.50
+                        <FITID>+202001030000005
+
+                        <NAME>SETYRES ON 02 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-33.59
+                        <FITID>+202001030000004
+
+                        <NAME>TOOLSTATION LTD ON 02 JAN BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+202001030000003
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+202001030000002
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200103000000[-5:EST]
+                        <TRNAMT>-15.00
+                        <FITID>+202001030000001
+
+                        <NAME>GREENPEACE LIMITED 4513240X DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-28.00
+                        <FITID>+202001020000019
+
+                        <NAME>TESCO STORES 2700 ON 01 JAN CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-20.59
+                        <FITID>+202001020000018
+
+                        <NAME>T L C BRIGHTON ON 31 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-8.20
+                        <FITID>+202001020000017
+
+                        <NAME>DRURY TEA AND COFF ON 30 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-35.64
+                        <FITID>+202001020000016
+
+                        <NAME>TOOLSTATION LTD ON 31 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-21.00
+                        <FITID>+202001020000015
+
+                        <NAME>JUSTGIVING.COM ON 31 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-400.00
+                        <FITID>+202001020000014
+
+                        <NAME>MRS RACHEL ANN LID 205278 039298
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-300.00
+                        <FITID>+202001020000013
+
+                        <NAME>J C LIDGARD &amp; R A 205489 1098842
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-271.00
+                        <FITID>+202001020000012
+
+                        <NAME>BRIGHTON-HOVE COU 2461456356 STO
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+202001020000011
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+202001020000010
+
+                        <NAME>J LIDGARD FLEXPLUS STO
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-2006.41
+                        <FITID>+202001020000009
+
+                        <NAME>BARCLAYS UK MTGES 9209157265 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-6.72
+                        <FITID>+202001020000008
+
+                        <NAME>AVIVA LIFE 6881817 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-6.99
+                        <FITID>+202001020000007
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-6.51
+                        <FITID>+202001020000006
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-3.58
+                        <FITID>+202001020000005
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-2.89
+                        <FITID>+202001020000004
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-13.20
+                        <FITID>+202001020000003
+
+                        <NAME>TV LICENCE MBP 1732495378 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-19.99
+                        <FITID>+202001020000002
+
+                        <NAME>SPORTS DIRECT FITN SDF18027745 D
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20200102000000[-5:EST]
+                        <TRNAMT>-9.92
+                        <FITID>+202001020000001
+
+                        <NAME>ANIMAL FRIENDS INS PD656215 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-100.00
+                        <FITID>+201912310000010
+
+                        <NAME>JOSEPH LIDGARD JEANS FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-77.00
+                        <FITID>+201912310000009
+
+                        <NAME>SARAH COLLYER RACHEL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-24.05
+                        <FITID>+201912310000008
+
+                        <NAME>COOK HOVE ON 30 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-10.50
+                        <FITID>+201912310000007
+
+                        <NAME>C AND H FABRICS ON 28 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-7.55
+                        <FITID>+201912310000006
+
+                        <NAME>SAINSBURYS S/MKTS ON 30 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912310000005
+
+                        <NAME>FLOUR POT BAKERY ON 30 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-52.20
+                        <FITID>+201912310000004
+
+                        <NAME>TOURVEST-BA RETAIL ON 27 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-20.40
+                        <FITID>+201912310000003
+
+                        <NAME>IBID SUBSCRIPTION ON 30 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-3.60
+                        <FITID>+201912310000002
+
+                        <NAME>TOURVEST-BA RETAIL ON 27 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191231000000[-5:EST]
+                        <TRNAMT>-7.35
+                        <FITID>+201912310000001
+
+                        <NAME>PLUSNET PLC PAY AC 73418754 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-27.45
+                        <FITID>+201912300000014
+
+                        <NAME>NEXT RETAIL LTD ON 29 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-24.50
+                        <FITID>+201912300000013
+
+                        <NAME>NEXT RETAIL LTD ON 29 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-16.00
+                        <FITID>+201912300000012
+
+                        <NAME>SOUTHERN CO-OP 034 ON 28 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-8.00
+                        <FITID>+201912300000011
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 29 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-6.67
+                        <FITID>+201912300000010
+
+                        <NAME>SOUTHERN CO-OP 034 ON 27 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-6.49
+                        <FITID>+201912300000009
+
+                        <NAME>SOUTHERN CO-OP 034 ON 27 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-5.70
+                        <FITID>+201912300000008
+
+                        <NAME>COSTA @ NEXT 43045 ON 29 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-2.60
+                        <FITID>+201912300000007
+
+                        <NAME>Brighton &amp; Hove Bu ON 28 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-83.00
+                        <FITID>+201912300000006
+
+                        <NAME>ONEILL BRIGHTON ON 28 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-60.50
+                        <FITID>+201912300000005
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 29 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-45.51
+                        <FITID>+201912300000004
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 29 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-579.76
+                        <FITID>+201912300000003
+
+                        <NAME>TESCO BANK 5186528995966442 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-8.98
+                        <FITID>+201912300000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191230000000[-5:EST]
+                        <TRNAMT>-7.35
+                        <FITID>+201912300000001
+
+                        <NAME>PLUSNET PLC PAY AC 25163145 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-100.00
+                        <FITID>+201912270000011
+
+                        <NAME>JOSEPH LIDGARD SHOPPING FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-29.76
+                        <FITID>+201912270000010
+
+                        <NAME>Canham and Sons ON 24 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-27.10
+                        <FITID>+201912270000009
+
+                        <NAME>SAINSBURYS SUPERMA ON 24 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-26.98
+                        <FITID>+201912270000008
+
+                        <NAME>TK MAXX ON 24 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-22.17
+                        <FITID>+201912270000007
+
+                        <NAME>MULBERRYS ON 24 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-3.42
+                        <FITID>+201912270000006
+
+                        <NAME>TOOLSTATION LTD ON 24 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-67.20
+                        <FITID>+201912270000005
+
+                        <NAME>NANDOS HOVE ON 24 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-3.99
+                        <FITID>+201912270000004
+
+                        <NAME>EPC*FORTNITE LUXEMBOURG ON 24 DE
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912270000003
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912270000002
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191227000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912270000001
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEP
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>6968.24
+                        <FITID>+201912240000009
+
+                        <NAME>BRITISH AIRWAYS BA CGBA818995/09
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-70.00
+                        <FITID>+201912240000008
+
+                        <NAME>SARAH COLLYER RACHEL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-6.20
+                        <FITID>+201912240000007
+
+                        <NAME>BSUH NHS TRUST ON 23 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-5.60
+                        <FITID>+201912240000006
+
+                        <NAME>UPAY LTD ON 23 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912240000005
+
+                        <NAME>Brighton &amp; Hove Bu ON 22 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-37.50
+                        <FITID>+201912240000004
+
+                        <NAME>ODEON ON 22 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-33.45
+                        <FITID>+201912240000003
+
+                        <NAME>LHR T5 WDF ARRIVAL ON 23 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-2.10
+                        <FITID>+201912240000002
+
+                        <NAME>BHCC-PAYBYPHONEPAR ON 23 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191224000000[-5:EST]
+                        <TRNAMT>-22.05
+                        <FITID>+201912240000001
+
+                        <NAME>H3G 981737525701201219 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEP
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>5.00
+                        <FITID>+201912230000020
+
+                        <NAME>JON LIDGARD REVOLUT J LIDGARD BG
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-60.00
+                        <FITID>+201912230000019
+
+                        <NAME>SABINE XMAS BDAY TJ MIL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912230000018
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912230000017
+
+                        <NAME>JON LIDGARD REVOLUT J LIDGARD FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-4.25
+                        <FITID>+201912230000016
+
+                        <NAME>COSTA CREW ON 20 DEC CPM
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-25.00
+                        <FITID>+201912230000015
+
+                        <NAME>ETERNAL ON 21 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-23.50
+                        <FITID>+201912230000014
+
+                        <NAME>OCEAN SPORTS ON 18 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-19.69
+                        <FITID>+201912230000013
+
+                        <NAME>BARNES &amp; BINNS GEN ON 21 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-13.95
+                        <FITID>+201912230000012
+
+                        <NAME>DECATHLON BRIGHTON ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-6.50
+                        <FITID>+201912230000011
+
+                        <NAME>SOUTHERN CO-OP 034 ON 22 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-5.80
+                        <FITID>+201912230000010
+
+                        <NAME>IZ *Dique Limited ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912230000009
+
+                        <NAME>VIVA VERDE ON 21 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912230000008
+
+                        <NAME>IZ *We Love Falafe ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-2.99
+                        <FITID>+201912230000007
+
+                        <NAME>TK MAXX ON 22 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-2.60
+                        <FITID>+201912230000006
+
+                        <NAME>Brighton &amp; Hove Bu ON 20 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-2.10
+                        <FITID>+201912230000005
+
+                        <NAME>BP HOVE CONVENIENC ON 20 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-150.00
+                        <FITID>+201912230000004
+
+                        <NAME>REVOLUT* ON 21 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-45.00
+                        <FITID>+201912230000003
+
+                        <NAME>STEAMER TRADING CO ON 22 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-30.97
+                        <FITID>+201912230000002
+
+                        <NAME>WATERSTONES ON 22 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191223000000[-5:EST]
+                        <TRNAMT>-180.00
+                        <FITID>+201912230000001
+
+                        <NAME>BULB ENERGY KM9YCVW-BULB DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEP
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>1120.81
+                        <FITID>+201912200000008
+
+                        <NAME>A SHADE ABOVE LIMI A SHADE ABOVE
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-44.50
+                        <FITID>+201912200000007
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 19 DEC CPM
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-22.90
+                        <FITID>+201912200000006
+
+                        <NAME>FLOUR POT BAKERY ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-22.69
+                        <FITID>+201912200000005
+
+                        <NAME>EYESITE OPTICIANS ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-8.00
+                        <FITID>+201912200000004
+
+                        <NAME>AMAS LTD ON 19 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-4.00
+                        <FITID>+201912200000003
+
+                        <NAME>NEST.COM ON 19 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912200000002
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191220000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912200000001
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191219000000[-5:EST]
+                        <TRNAMT>-1.99
+                        <FITID>+201912190000003
+
+                        <NAME>PETS CORNER ON 18 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191219000000[-5:EST]
+                        <TRNAMT>-50.61
+                        <FITID>+201912190000002
+
+                        <NAME>BP HOVE CONVENIENC ON 17 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191219000000[-5:EST]
+                        <TRNAMT>-8.99
+                        <FITID>+201912190000001
+
+                        <NAME>NOWTV.COM/BILLINGH ON 18 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-10.12
+                        <FITID>+201912180000009
+
+                        <NAME>POST OFFICE COUNTE ON 17 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-2.29
+                        <FITID>+201912180000008
+
+                        <NAME>PORTSLADE CARDS AN ON 17 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-59.65
+                        <FITID>+201912180000007
+
+                        <NAME>ATG TICKET WEB ON 17 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-57.13
+                        <FITID>+201912180000006
+
+                        <NAME>AMZNMktplace ON 17 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-33.96
+                        <FITID>+201912180000005
+
+                        <NAME>SOUTHERN CO-OP 034 ON 17 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912180000004
+
+                        <NAME>PARENTPAY E-COM R ON 17 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-15.99
+                        <FITID>+201912180000003
+
+                        <NAME>Amazon.co.uk*MA2UA LUXEMBOURG ON
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-2.49
+                        <FITID>+201912180000002
+
+                        <NAME>APPLE.COM/BILL IRELAND ON 17 DEC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191218000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912180000001
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912170000012
+
+                        <NAME>IZ *Brighton and H ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912170000011
+
+                        <NAME>RESIDENT MUSIC ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-17.69
+                        <FITID>+201912170000010
+
+                        <NAME>SOUTHERN CO-OP 034 ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-9.00
+                        <FITID>+201912170000009
+
+                        <NAME>FLOUR POT BAKERY ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-7.00
+                        <FITID>+201912170000008
+
+                        <NAME>HIXON GREEN HOVE L ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-6.00
+                        <FITID>+201912170000007
+
+                        <NAME>AMAS LTD ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-3.00
+                        <FITID>+201912170000006
+
+                        <NAME>SUTHERLAND &amp; SADLE ON 16 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-119.00
+                        <FITID>+201912170000005
+
+                        <NAME>SNOW &amp; ROCK ON 16 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-8.99
+                        <FITID>+201912170000004
+
+                        <NAME>NETFLIX.COM NETHERLANDS ON 16 DE
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-25.00
+                        <FITID>+201912170000003
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-13.64
+                        <FITID>+201912170000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191217000000[-5:EST]
+                        <TRNAMT>-4.51
+                        <FITID>+201912170000001
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>115.72
+                        <FITID>+201912160000019
+
+                        <NAME>SECRET CINEMA PRES ON 14 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>61.98
+                        <FITID>+201912160000018
+
+                        <NAME>SECRET CINEMA PRES ON 14 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-40.00
+                        <FITID>+201912160000017
+
+                        <NAME>H HOLLAND XMAS JAZ OLI FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-17.30
+                        <FITID>+201912160000016
+
+                        <NAME>BP HOVE CONVENIENC ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-15.51
+                        <FITID>+201912160000015
+
+                        <NAME>CAFE ROUGE ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-9.40
+                        <FITID>+201912160000014
+
+                        <NAME>DRURY TEA AND COFF ON 13 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-8.82
+                        <FITID>+201912160000013
+
+                        <NAME>PRET A MANGER ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-6.10
+                        <FITID>+201912160000012
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 15 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-6.00
+                        <FITID>+201912160000011
+
+                        <NAME>IZ *Secret Group L ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912160000010
+
+                        <NAME>IZ *SECRET GROUP L ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-2.50
+                        <FITID>+201912160000009
+
+                        <NAME>IZ *SECRET GROUP L ON 14 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-75.93
+                        <FITID>+201912160000008
+
+                        <NAME>SP * SKULL FINGERB ON 15 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-67.97
+                        <FITID>+201912160000007
+
+                        <NAME>STRENSON LEISURE L ON 15 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-40.35
+                        <FITID>+201912160000006
+
+                        <NAME>NEW SOUTHERN RAILW ON 14 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-40.00
+                        <FITID>+201912160000005
+
+                        <NAME>MRH HATTON CROSS ON 12 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-35.00
+                        <FITID>+201912160000004
+
+                        <NAME>THE CIRCLE BRIGHTO ON 13 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-7.99
+                        <FITID>+201912160000003
+
+                        <NAME>Audible UK ON 13 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-0.79
+                        <FITID>+201912160000002
+
+                        <NAME>APPLE.COM/BILL IRELAND ON 13 DEC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191216000000[-5:EST]
+                        <TRNAMT>-34.80
+                        <FITID>+201912160000001
+
+                        <NAME>AVIVA LIFE 7715703EL DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIV
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>27.30
+                        <FITID>+201912130000007
+
+                        <NAME>IAG IAG/I0737782581 DIV
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-10.80
+                        <FITID>+201912130000006
+
+                        <NAME>BP WOODSTOCK F/STN ON 11 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-6.95
+                        <FITID>+201912130000005
+
+                        <NAME>BRITISH AIRWAYS-CA ON 12 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-2.50
+                        <FITID>+201912130000004
+
+                        <NAME>BRITISH AIRWAYS-CA ON 12 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912130000003
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912130000002
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191213000000[-5:EST]
+                        <TRNAMT>-2.49
+                        <FITID>+201912130000001
+
+                        <NAME>CURRYS 5004071407 CURRYS 5004071
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191212000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+201912120000004
+
+                        <NAME>MCDONALDS ON 11 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191212000000[-5:EST]
+                        <TRNAMT>-5.00
+                        <FITID>+201912120000003
+
+                        <NAME>Brighton &amp; Hove Bu ON 10 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191212000000[-5:EST]
+                        <TRNAMT>-24.00
+                        <FITID>+201912120000002
+
+                        <NAME>PARENTPAY E-COM R ON 11 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191212000000[-5:EST]
+                        <TRNAMT>-0.79
+                        <FITID>+201912120000001
+
+                        <NAME>APPLE.COM/BILL IRELAND ON 11 DEC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191211000000[-5:EST]
+                        <TRNAMT>-8.40
+                        <FITID>+201912110000005
+
+                        <NAME>THE FORAGERS ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191211000000[-5:EST]
+                        <TRNAMT>-5.19
+                        <FITID>+201912110000004
+
+                        <NAME>WICKES BRIGHTON ON 10 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191211000000[-5:EST]
+                        <TRNAMT>-40.00
+                        <FITID>+201912110000003
+
+                        <NAME>BP HOVE CONVENIENC ON 09 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191211000000[-5:EST]
+                        <TRNAMT>-3.91
+                        <FITID>+201912110000002
+
+                        <NAME>MEDIUM MONTHLY USA AMOUNT IN USD
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191211000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912110000001
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912100000012
+
+                        <NAME>Canham and Sons ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-15.78
+                        <FITID>+201912100000011
+
+                        <NAME>SALLY SALON SERVIC ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-12.99
+                        <FITID>+201912100000010
+
+                        <NAME>LAKELAND ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-12.59
+                        <FITID>+201912100000009
+
+                        <NAME>CARD FACTORY ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-1.30
+                        <FITID>+201912100000008
+
+                        <NAME>DEBENHAMS ON 09 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-70.00
+                        <FITID>+201912100000007
+
+                        <NAME>CARDTRONICS UK LTD SOUTHERN COOP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-66.77
+                        <FITID>+201912100000006
+
+                        <NAME>LIDL GB SHOREHAM ON 09 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-64.50
+                        <FITID>+201912100000005
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 09 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-42.98
+                        <FITID>+201912100000004
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-38.98
+                        <FITID>+201912100000003
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-38.25
+                        <FITID>+201912100000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191210000000[-5:EST]
+                        <TRNAMT>-25.00
+                        <FITID>+201912100000001
+
+                        <NAME>NAT FRIEND CURRENT TP9A/00000390
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-22.21
+                        <FITID>+201912090000011
+
+                        <NAME>SHELL HOVE ON 08 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-20.50
+                        <FITID>+201912090000010
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 06 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-11.98
+                        <FITID>+201912090000009
+
+                        <NAME>GARDEN PRIDE ON 07 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-2.50
+                        <FITID>+201912090000008
+
+                        <NAME>IZ *Emma Stanton J ON 07 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-158.50
+                        <FITID>+201912090000007
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 06 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-34.99
+                        <FITID>+201912090000006
+
+                        <NAME>PROCOOK - BRIGHTON ON 07 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912090000005
+
+                        <NAME>PARENTPAY E-COM R ON 06 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+201912090000004
+
+                        <NAME>H3G 982330921701051219 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-10.00
+                        <FITID>+201912090000003
+
+                        <NAME>H3G 982329726301051219 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-150.00
+                        <FITID>+201912090000002
+
+                        <NAME>HLAM REGULAR SAVIN 01C0221458326
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191209000000[-5:EST]
+                        <TRNAMT>-150.00
+                        <FITID>+201912090000001
+
+                        <NAME>HLAM REGULAR SAVIN 01C0221458226
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-60.00
+                        <FITID>+201912060000006
+
+                        <NAME>SARAH COLLYER RACHEL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-3.99
+                        <FITID>+201912060000005
+
+                        <NAME>MCDONALDS ON 05 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912060000004
+
+                        <NAME>CHARLIE LIDGARD CHARLIE POCKET M
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>+201912060000003
+
+                        <NAME>SAMUEL LIDGARD SAM POCKET MONEY
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-58.23
+                        <FITID>+201912060000002
+
+                        <NAME>VIRGIN MEDIA PYMTS 403507801001
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191206000000[-5:EST]
+                        <TRNAMT>-105.03
+                        <FITID>+201912060000001
+
+                        <NAME>BALPA 22132B DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191205000000[-5:EST]
+                        <TRNAMT>-13.50
+                        <FITID>+201912050000005
+
+                        <NAME>BRACKENBOROUGH HOT ON 04 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191205000000[-5:EST]
+                        <TRNAMT>-8.40
+                        <FITID>+201912050000004
+
+                        <NAME>COSTA COFFEE 43036 ON 04 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191205000000[-5:EST]
+                        <TRNAMT>-7.35
+                        <FITID>+201912050000003
+
+                        <NAME>PLUSNET PLC PAY AC 73418754 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191205000000[-5:EST]
+                        <TRNAMT>-5.45
+                        <FITID>+201912050000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191205000000[-5:EST]
+                        <TRNAMT>-3.39
+                        <FITID>+201912050000001
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-18.80
+                        <FITID>+201912040000013
+
+                        <NAME>JABA YARD HOVE ON 03 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-6.25
+                        <FITID>+201912040000012
+
+                        <NAME>ROYAL OAK INN ON 03 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-5.75
+                        <FITID>+201912040000011
+
+                        <NAME>THE COUNTING HOUSE ON 03 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-4.40
+                        <FITID>+201912040000010
+
+                        <NAME>ROYAL OAK INN ON 03 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-1.50
+                        <FITID>+201912040000009
+
+                        <NAME>North East Lincoln ON 03 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-50.00
+                        <FITID>+201912040000008
+
+                        <NAME>MFG CLEETHORPES ON 03 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-4.99
+                        <FITID>+201912040000007
+
+                        <NAME>APPLE.COM/BILL IRELAND ON 03 DEC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912040000006
+
+                        <NAME>SAMUEL LIDGARD SAM LUNCH MONEY S
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-54.99
+                        <FITID>+201912040000005
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-47.98
+                        <FITID>+201912040000004
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-9.99
+                        <FITID>+201912040000003
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-1.75
+                        <FITID>+201912040000002
+
+                        <NAME>PAYPAL PAYMENT 5YG22222HEUV6 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191204000000[-5:EST]
+                        <TRNAMT>-8.95
+                        <FITID>+201912040000001
+
+                        <NAME>PLUSNET PLC PAY AC 25163145 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-4.00
+                        <FITID>+201912030000010
+
+                        <NAME>Blue Rewards Fee   CB
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-343.56
+                        <FITID>+201912030000009
+
+                        <NAME>MR JONATHAN LIDGAR 4929421954281
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-4.80
+                        <FITID>+201912030000008
+
+                        <NAME>COSTA COFFEE 43038 ON 02 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-3.50
+                        <FITID>+201912030000007
+
+                        <NAME>CO-OP GROUP 070157 ON 02 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912030000006
+
+                        <NAME>TESCO TESCO HOVE 03DEC 17.25 ATM
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-200.00
+                        <FITID>+201912030000005
+
+                        <NAME>NEXT RETAIL LTD ON 02 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-108.73
+                        <FITID>+201912030000004
+
+                        <NAME>WWW.ROUTEONE.CO.UK ON 02 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-52.17
+                        <FITID>+201912030000003
+
+                        <NAME>MARKS&amp;SPENCER PLC ON 02 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-1.00
+                        <FITID>+201912030000002
+
+                        <NAME>North East Lincoln ON 02 DEC BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191203000000[-5:EST]
+                        <TRNAMT>-15.00
+                        <FITID>+201912030000001
+
+                        <NAME>GREENPEACE LIMITED 4513240X DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912020000024
+
+                        <NAME>SHELL BIRCHANGER ON 01 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-24.25
+                        <FITID>+201912020000023
+
+                        <NAME>WAITROSE 605 ON 29 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-22.68
+                        <FITID>+201912020000022
+
+                        <NAME>SAINSBURYS S/MKTS ON 29 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-22.00
+                        <FITID>+201912020000021
+
+                        <NAME>T L C BRIGHTON ON 30 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-11.10
+                        <FITID>+201912020000020
+
+                        <NAME>BP HOVE CONVENIENC ON 28 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-6.98
+                        <FITID>+201912020000019
+
+                        <NAME>WH SMITH TRAVEL ON 01 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-5.40
+                        <FITID>+201912020000018
+
+                        <NAME>BP HOVE CONVENIENC ON 29 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-5.11
+                        <FITID>+201912020000017
+
+                        <NAME>MCDONALDS ON 01 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-2.99
+                        <FITID>+201912020000016
+
+                        <NAME>STRENSON LEISURE L ON 01 DEC CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912020000015
+
+                        <NAME>CARDTRONICS UK LTD COOPERATIVE D
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-30.00
+                        <FITID>+201912020000014
+
+                        <NAME>LINK PO HOVE 2287 30NOV 18.05 AT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-92.00
+                        <FITID>+201912020000013
+
+                        <NAME>TICKETWEB T4 ON 29 NOV BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-49.99
+                        <FITID>+201912020000012
+
+                        <NAME>ARGOS RETAIL GROUP ON 29 NOV BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-44.99
+                        <FITID>+201912020000011
+
+                        <NAME>MAYBERRY GARDEN CE ON 30 NOV BCC
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-400.00
+                        <FITID>+201912020000010
+
+                        <NAME>MRS RACHEL ANN LID 205278 039298
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-300.00
+                        <FITID>+201912020000009
+
+                        <NAME>J C LIDGARD &amp; R A 205489 1098842
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-271.00
+                        <FITID>+201912020000008
+
+                        <NAME>BRIGHTON-HOVE COU 2461456356 STO
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-20.00
+                        <FITID>+201912020000007
+
+                        <NAME>J LIDGARD FLEXPLUS STO
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-2006.41
+                        <FITID>+201912020000006
+
+                        <NAME>BARCLAYS UK MTGES 9209157265 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-6.72
+                        <FITID>+201912020000005
+
+                        <NAME>AVIVA LIFE 6881817 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-13.20
+                        <FITID>+201912020000004
+
+                        <NAME>TV LICENCE MBP 1732495378 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-592.95
+                        <FITID>+201912020000003
+
+                        <NAME>SOUTHERN WATER 1512085700030 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-19.99
+                        <FITID>+201912020000002
+
+                        <NAME>SPORTS DIRECT FITN SDF18027745 D
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20191202000000[-5:EST]
+                        <TRNAMT>-9.92
+                        <FITID>+201912020000001
+
+                        <NAME>ANIMAL FRIENDS INS PD656215 DDR
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20191129000000[-5:EST]
+                        <TRNAMT>-45.00
+                        <FITID>+201911290000009
+
+                        <NAME>SARAH COLLYER RACHEL FT
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191129000000[-5:EST]
+                        <TRNAMT>-12.97
+                        <FITID>+201911290000008
+
+                        <NAME>DUKE'S AT KOMEDIA ON 28 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191129000000[-5:EST]
+                        <TRNAMT>-3.60
+                        <FITID>+201911290000007
+
+                        <NAME>DUKE'S AT KOMEDIA ON 28 NOV CLP
+                    </STMTTRN>
+
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20191129000000[-5:EST]
+                        <TRNAMT>-3.30
+                        <FITID>+201911290000006
+
+                        <NAME>NORTH LAINE NEWS &amp; ON 28 NOV CLP
+                    </STMTTRN>
+
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>10481.91
+                    <DTASOF>20200114000000[-5:EST]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+
+    </BANKMSGSRSV1>
+</OFX>
