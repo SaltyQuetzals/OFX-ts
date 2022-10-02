@@ -22,13 +22,13 @@ export interface INTRARQ {
   xferinfo: XFERINFO
 }
 
-export enum TransferPRCCode {
-  WILLPROCESSON = 'WILLPROCESSON',
-  POSTEDON = 'POSTEDON',
-  NOFUNDSON = 'NOFUNDSON',
-  CANCELEDON = 'CANCELEDON',
-  FAILEDON = 'FAILEDON',
-}
+export type TransferPRCCode =
+  | 'WILLPROCESSON'
+  | 'POSTEDON'
+  | 'NOFUNDSON'
+  | 'CANCELEDON'
+  | 'FAILEDON'
+
 
 /// OFX section 11.3.6
 export interface XFERPRCSTS {

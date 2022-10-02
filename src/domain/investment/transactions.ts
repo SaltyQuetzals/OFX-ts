@@ -4,33 +4,33 @@ import { CURRENCY, ORIGCURRENCY } from '../i18n'
 import { INVSUBACCT, INVACCTFROM } from './acct'
 import { SECID } from './securities'
 
-export enum BUYTYPE {
-  BUY = 'BUY',
-  BUYTOCOVER = 'BUYTOCOVER',
-}
+export type BUYTYPE =
+  | 'BUY'
+  | 'BUYTOCOVER'
 
-export enum SELLTYPE {
-  SELL = 'SELL',
-  SELLSHORT = 'SELLSHORT',
-}
 
-export enum OPTBUYTYPE {
-  BUYTOOPEN = 'BUYTOOPEN',
-  BUYTOCLOSE = 'BUYTOCLOSE',
-}
+export type SELLTYPE =
+  | 'SELL'
+  | 'SELLSHORT'
 
-export enum OPTSELLTYPE {
-  SELLTOOPEN = 'SELLTOOPEN',
-  SELLTOCLOSE = 'SELLTOCLOSE',
-}
 
-export enum INCOMETYPE {
-  CGLONG = 'CGLONG',
-  CGSHORT = 'CGSHORT',
-  DIV = 'DIV',
-  INTEREST = 'INTEREST',
-  MISC = 'MISC',
-}
+export type OPTBUYTYPE =
+  | 'BUYTOOPEN'
+  | 'BUYTOCLOSE'
+
+
+export type OPTSELLTYPE =
+  | 'SELLTOOPEN'
+  | 'SELLTOCLOSE'
+
+
+export type INCOMETYPE =
+  | 'CGLONG'
+  | 'CGSHORT'
+  | 'DIV'
+  | 'INTEREST'
+  | 'MISC'
+
 
 /// OFX section 13.9.2.3
 export interface INVBANKTRAN {
@@ -129,11 +129,12 @@ export interface BUYSTOCK {
   buytype: BUYTYPE
 }
 
-export enum OPTACTION {
-  EXERCISE = 'EXERCISE',
-  ASSIGN = 'ASSIGN',
-  EXPIRE = 'EXPIRE',
-}
+export type OPTACTION =
+  | 'EXERCISE'
+  | 'ASSIGN'
+  | 'EXPIRE'
+
+
 /// OFX section 13.9.2.4.4
 export interface CLOSUREOPT {
   invtran: INVTRAN
@@ -230,11 +231,11 @@ export interface RETOFCAP {
   inv401ksource?: Investment401kSource
 }
 
-enum SELLREASON {
-  CALL = 'CALL',
-  SELL = 'SELL',
-  MATURITY = 'MATURITY',
-}
+export type SELLREASON =
+  | 'CALL'
+  | 'SELL'
+  | 'MATURITY'
+
 
 /// OFX section 13.9.2.4.4
 export interface SELLDEBT {
@@ -251,16 +252,15 @@ export interface SELLMF {
   relfitid?: String
 }
 
-export enum RELTYPE {
-  SPREAD = 'SPREAD',
-  STRADDLE = 'STRADDLE',
-  NONE = 'NONE',
-  OTHER = 'OTHER',
-}
-export enum SECURED {
-  NAKED = 'NAKED',
-  COVERED = 'COVERED',
-}
+export type RELTYPE =
+  | 'SPREAD'
+  | 'STRADDLE'
+  | 'NONE'
+  | 'OTHER'
+
+export type SECURED =
+  | 'NAKED'
+  | 'COVERED'
 
 /// OFX section 13.9.2.4.4
 export interface SELLOPT {
@@ -299,14 +299,14 @@ export interface SPLIT {
   inv401ksource?: Investment401kSource
 }
 
-export enum TFERACTION {
-  IN = 'IN',
-  OUT = 'OUT',
-}
-export enum POSTYPE {
-  SHORT = 'SHORT',
-  LONG = 'LONG',
-}
+export type TFERACTION =
+  | 'IN'
+  | 'OUT'
+
+export type POSTYPE =
+  | 'SHORT'
+  | 'LONG'
+
 
 /// OFX section 13.9.2.4.4
 export interface TRANSFER {

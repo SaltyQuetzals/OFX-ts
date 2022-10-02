@@ -6,17 +6,16 @@ import { INTERRQ, INTERRS } from './interxfer'
 import { INTRARQ, INTRARS } from './xfer'
 
 ///
-export enum Frequency {
-  WEEKLY,
-  BIWEEKLY,
-  TWICEMONTHLY,
-  MONTHLY,
-  FOURWEEKS,
-  BIMONTHLY,
-  QUARTERLY,
-  SEMIANNUALLY,
-  ANNUALLY,
-}
+export type Frequency =
+  | 'WEEKLY'
+  | 'BIWEEKLY'
+  | 'TWICEMONTHLY'
+  | 'MONTHLY'
+  | 'FOURWEEKS'
+  | 'BIMONTHLY'
+  | 'QUARTERLY'
+  | 'SEMIANNUALLY'
+  | 'ANNUALLY'
 
 /// OFX section 10.2
 export interface RECURRINST {

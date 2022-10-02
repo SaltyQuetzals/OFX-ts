@@ -6,44 +6,15 @@ import { SVCSTATUS, BAL } from '../common'
 import { CountryCodes, CURRENCY, ORIGCURRENCY, CurrencyCodes } from '../i18n'
 
 ///
-export enum Investment401kSource {
-  PRETAX,
-  AFTERTAX,
-  MATCH,
-  PROFITSHARING,
-  ROLLOVER,
-  OTHERVEST,
-  OTHERNONVEST,
-}
+export type Investment401kSource =
+  | 'PRETAX' | 'AFTERTAX' | 'MATCH' | 'PROFITSHARING' | 'ROLLOVER' | 'OTHERVEST' | 'OTHERNONVEST'
 
 /// OFX section 11.3.1.1
-export enum AccountType {
-  CHECKING,
-  SAVINGS,
-  MONEYMRKT,
-  CREDITLINE,
-  CD,
-}
+export type AccountType =
+  | 'CHECKING' | 'SAVINGS' | 'MONEYMRKT' | 'CREDITLINE' | 'CD'
 
-export enum TransactionType {
-  CREDIT,
-  DEBIT,
-  INT,
-  DIV,
-  FEE,
-  SRVCHG,
-  DEP,
-  ATM,
-  POS,
-  XFER,
-  CHECK,
-  PAYMENT,
-  CASH,
-  DIRECTDEP,
-  DIRECTDEBIT,
-  REPEATPMT,
-  OTHER,
-}
+export type TransactionType =
+  | 'CREDIT' | 'DEBIT' | 'INT' | 'DIV' | 'FEE' | 'SRVCHG' | 'DEP' | 'ATM' | 'POS' | 'XFER' | 'CHECK' | 'PAYMENT' | 'CASH' | 'DIRECTDEP' | 'DIRECTDEBIT' | 'REPEATPMT' | 'OTHER'
 
 /// OFX section 11.3.1
 export interface BANKACCTFROM {
@@ -121,10 +92,9 @@ export interface PAYEE {
   phone: string
 }
 
-export enum CorrectAction {
-  REPLACE,
-  DELETE,
-}
+export type CorrectAction =
+  | 'REPLACE'
+  | 'DELETE'
 
 /// OFX section 11.4.3
 export interface STMTTRN {

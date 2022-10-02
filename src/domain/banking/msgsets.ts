@@ -40,15 +40,15 @@ import {
 import { WIRETRNRQ, WIRETRNRS } from './wire'
 import { INTRATRNRQ, INTRATRNRS } from './xfer'
 
-export enum DAYS {
-  MONDAY,
-  TUESDAY,
-  WEDNESDAY,
-  THURSDAY,
-  FRIDAY,
-  SATURDAY,
-  SUNDAY,
-}
+export type DAYS =
+  |'MONDAY'
+  |'TUESDAY'
+  |'WEDNESDAY'
+  |'THURSDAY'
+  |'FRIDAY'
+  |'SATURDAY'
+  |'SUNDAY'
+
 
 /// OFX section 11.13.1.1.1
 export interface BANKMSGSRQV1 {

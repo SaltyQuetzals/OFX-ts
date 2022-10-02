@@ -8,18 +8,18 @@ import { SECID } from './securities'
 import { INVTRANLIST } from './transactions'
 
 /// OFX section 13.9.3
-export enum LOANPMTFREQUENCY {
-  WEEKLY = 'WEEKLY',
-  BIWEEKLY = 'BIWEEKLY',
-  TWICEMONTHLY = 'TWICEMONTHLY',
-  MONTHLY = 'MONTHLY',
-  FOURWEEKS = 'FOURWEEKS',
-  BIMONTHLY = 'BIMONTHLY',
-  QUARTERLY = 'QUARTERLY',
-  SEMIANNUALLY = 'SEMIANNUALLY',
-  ANNUALLY = 'ANNUALLY',
-  OTHER = 'OTHER',
-}
+export type LOANPMTFREQUENCY =
+  | 'WEEKLY'
+  | 'BIWEEKLY'
+  | 'TWICEMONTHLY'
+  | 'MONTHLY'
+  | 'FOURWEEKS'
+  | 'BIMONTHLY'
+  | 'QUARTERLY'
+  | 'SEMIANNUALLY'
+  | 'ANNUALLY'
+  | 'OTHER'
+
 
 /// OFX section 13.9.1.2
 export interface INCPOS {

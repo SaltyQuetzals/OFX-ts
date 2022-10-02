@@ -38,12 +38,12 @@ export interface MSGSETLIST {
   // tax1099msgset?: TAX1099MSGSET[]
 }
 
-export enum PasswordCharacterType {
-  ALPHAONLY = 'ALPHAONLY',
-  NUMERICONLY = 'NUMERICONLY',
-  ALPHAORNUMERIC = 'ALPHAORNUMERIC',
-  ALPHAANDNUMERIC = 'ALPHAANDNUMERIC',
-}
+export type PasswordCharacterType =
+  | 'ALPHAONLY'
+  | 'NUMERICONLY'
+  | 'ALPHAORNUMERIC'
+  | 'ALPHAANDNUMERIC'
+
 
 /// OFX section 7.2.2
 export interface SIGNONINFO {
@@ -73,11 +73,11 @@ export interface SIGNONINFOLIST {
 
 }
 
-export enum ClientRouting {
-  NONE = 'NONE',
-  SERVICE = 'SERVICE',
-  MSGSET = 'MSGSET',
-}
+export type ClientRouting =
+  | 'NONE'
+  | 'SERVICE'
+  | 'MSGSET'
+
 
 /// OFX section 7.1.5
 export interface PROFRQ {

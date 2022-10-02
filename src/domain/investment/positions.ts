@@ -3,10 +3,10 @@ import { CURRENCY } from '../i18n'
 import { INVSUBACCT } from './acct'
 import { SECID } from './securities'
 
-export enum POSTYPE {
-  SHORT = 'SHORT',
-  LONG = 'LONG',
-}
+export type POSTYPE =
+  | 'SHORT'
+  | 'LONG'
+
 
 /// OFX section 13.9.2.6.1
 export interface INVPOS {
@@ -37,10 +37,10 @@ export interface POSMF {
   reinvcg?: boolean
 }
 
-export enum SECURED {
-  NAKED = 'NAKED',
-  COVERED = 'COVERED',
-}
+export type SECURED =
+  | 'NAKED'
+  | 'COVERED'
+
 /// OFX section 13.9.2.6.1
 export interface POSOPT {
   invpos: INVPOS

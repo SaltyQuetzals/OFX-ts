@@ -1,16 +1,14 @@
 import { CURRENCY, LanguageCodes } from './i18n'
 
-export enum SVCSTATUS {
-  AVAIL = 'AVAIL',
-  PEND = 'PEND',
-  ACTIVE = 'ACTIVE'
-}
+export type SVCSTATUS =
+  | 'AVAIL'
+  | 'PEND'
+  | 'ACTIVE'
 
-export enum SEVERITY {
-  INFO = 'INFO',
-  WARN = 'WARN',
-  ERROR = 'ERROR'
-}
+export type SEVERITY =
+  | 'INFO'
+  | 'WARN'
+  | 'ERROR'
 
 /**
    * OFX section 3.1.5
@@ -21,11 +19,11 @@ export interface STATUS {
   message?: string
 }
 
-export enum BALTYPE {
-  DOLLAR = 'DOLLAR',
-  PERCENT = 'PERCENT',
-  NUMBER = 'NUMBER'
-}
+export type BALTYPE =
+  | 'DOLLAR'
+  | 'PERCENT'
+  | 'NUMBER'
+
 
 /**
    * OFX section 3.1.4
@@ -56,15 +54,13 @@ export interface OFXEXTENSION {
   ofxelement: OFXELEMENT[]
 }
 
-export enum OFXSEC {
-  NONE = 'NONE',
-  TYPE1 = 'TYPE1'
-}
+export type OFXSEC =
+  | 'NONE'
+  | 'TYPE1'
 
-export enum SYNCMODE {
-  FULL = 'FULL',
-  LITE = 'LITE'
-}
+export type SYNCMODE =
+  | 'FULL'
+  | 'LITE'
 
 export interface MSGSETCORE {
   ver: number

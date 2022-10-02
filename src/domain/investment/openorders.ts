@@ -4,22 +4,22 @@ import { INVSUBACCT } from './acct'
 import { SECID } from './securities'
 import { BUYTYPE, OPTBUYTYPE, SELLTYPE, OPTSELLTYPE } from './transactions'
 
-export enum UNITTYPE {
-  SHARES = 'SHARES',
-  CURRENCY = 'CURRENCY',
-}
+export type UNITTYPE =
+  | 'SHARES'
+  | 'CURRENCY'
 
-export enum DURATION {
-  DAY = 'DAY',
-  GOODTILCANCEL = 'GOODTILCANCEL',
-  IMMEDIATE = 'IMMEDIATE',
-}
 
-export enum RESTRICTION {
-  ALLORNONE = 'ALLORNONE',
-  MINUNITS = 'MINUNITS',
-  NONE = 'NONE',
-}
+export type DURATION =
+  | 'DAY'
+  | 'GOODTILCANCEL'
+  | 'IMMEDIATE'
+
+
+export type RESTRICTION =
+  | 'ALLORNONE'
+  | 'MINUNITS'
+  | 'NONE'
+
 /// OFX section 13.9.2.5.1 - General open order aggregate
 export interface OO {
   fitid: String

@@ -1,15 +1,14 @@
 import { TrnRq, TrnRs } from '../base/wrappers'
 import { CURRENCY } from '../i18n'
 
-export enum ASSETCLASS {
-  DOMESTICBOND = 'DOMESTICBOND',
-  INTLBOND = 'INTLBOND',
-  LARGESTOCK = 'LARGESTOCK',
-  SMALLSTOCK = 'SMALLSTOCK',
-  INTLSTOCK = 'INTLSTOCK',
-  MONEYMRKT = 'MONEYMRKT',
-  OTHER = 'OTHER',
-}
+export type ASSETCLASS =
+  | 'DOMESTICBOND'
+  | 'INTLBOND'
+  | 'LARGESTOCK'
+  | 'SMALLSTOCK'
+  | 'INTLSTOCK'
+  | 'MONEYMRKT'
+  | 'OTHER'
 
 /// OFX section 13.8.1
 export interface SECID {
@@ -42,29 +41,29 @@ export interface SECINFO {
   memo?: string
 }
 
-export enum DEBTTYPE {
-  COUPON = 'COUPON',
-  ZERO = 'ZERO',
-}
-export enum DEBTCLASS {
-  TREASURY = 'TREASURY',
-  MUNICIPAL = 'MUNICIPAL',
-  CORPORATE = 'CORPORATE',
-  OTHER = 'OTHER',
-}
-export enum COUPONFREQ {
-  MONTHLY = 'MONTHLY',
-  QUARTERLY = 'QUARTERLY',
-  SEMIANNUAL = 'SEMIANNUAL',
-  ANNUAL = 'ANNUAL',
-  OTHER = 'OTHER',
-}
-export enum CALLTYPE {
-  CALL = 'CALL',
-  PUT = 'PUT',
-  PREFUND = 'PREFUND',
-  MATURITY = 'MATURITY',
-}
+export type DEBTTYPE =
+  | 'COUPON'
+  | 'ZERO'
+
+export type DEBTCLASS =
+  | 'TREASURY'
+  | 'MUNICIPAL'
+  | 'CORPORATE'
+  | 'OTHER'
+
+export type COUPONFREQ =
+  | 'MONTHLY'
+  | 'QUARTERLY'
+  | 'SEMIANNUAL'
+  | 'ANNUAL'
+  | 'OTHER'
+
+export type CALLTYPE =
+  | 'CALL'
+  | 'PUT'
+  | 'PREFUND'
+  | 'MATURITY'
+
 
 /// OFX section 13.8.5.2
 export interface DEBTINFO {
@@ -107,11 +106,11 @@ export interface FIMFASSETCLASS {
   fiportion?: FIPORTION[]
 }
 
-export enum MFTYPE {
-  OPENEND = 'OPENEND',
-  CLOSENED = 'CLOSENED',
-  OTHER = 'OTHER',
-}
+export type MFTYPE =
+  | 'OPENEND'
+  | 'CLOSENED'
+  | 'OTHER'
+
 /// OFX section 13.8.5.3
 export interface MFINFO {
   secinfo: SECINFO
@@ -122,10 +121,10 @@ export interface MFINFO {
   fimfassetclass?: FIMFASSETCLASS
 }
 
-export enum OPTTYPE {
-  CALL = 'CALL',
-  PUT = 'PUT',
-}
+export type OPTTYPE =
+  | 'CALL'
+  | 'PUT'
+
 
 /// OFX section 13.8.5.4
 export interface OPTINFO {
@@ -147,12 +146,12 @@ export interface OTHERINFO {
   fiassetclass?: string
 }
 
-export enum STOCKTYPE {
-  COMMON = 'COMMON',
-  PREFERRED = 'PREFERRED',
-  CONVERTIBLE = 'CONVERTIBLE',
-  OTHER = 'OTHER',
-}
+export type STOCKTYPE =
+  | 'COMMON'
+  | 'PREFERRED'
+  | 'CONVERTIBLE'
+  | 'OTHER'
+
 
 /// OFX section 13.8.5.6
 export interface STOCKINFO {
@@ -181,7 +180,7 @@ export interface SECLISTTRNRQ extends TrnRq {
 
 /// OFX section 13.8.2.2
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface SECLISTRS {}
+export interface SECLISTRS { }
 
 /// OFX section 13.8.2.1
 export interface SECLISTTRNRS extends TrnRs {

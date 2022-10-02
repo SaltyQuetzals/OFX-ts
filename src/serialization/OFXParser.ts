@@ -66,13 +66,4 @@ export class OFXParser {
     }
     return doc
   }
-
-
-  public parse(ofxString: string, doc: XMLDocument, serializer: XMLSerializer): OFX {
-    const xmlDoc = this.closeSGMLTags(ofxString, doc);
-    const walker = xmlDoc.createTreeWalker(xmlDoc.getRootNode())
-    console.log(walker.)
-
-    return {}
-  }
 }
