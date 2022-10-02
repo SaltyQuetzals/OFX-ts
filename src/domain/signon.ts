@@ -1,5 +1,5 @@
 ///
-/// Client signon - OFX Section 2.5
+/** Client signon - OFX Section 2.5 */
 ///
 
 import { TrnRq, TrnRs } from './base/wrappers'
@@ -50,26 +50,26 @@ export const MFAPhraseIds = {
   MFA110: ''
 }
 
-/// OFX section 2.5.1.8
+/** OFX section 2.5.1.8 */
 export interface FI {
   org: string
   fid?: string
 
 }
 
-/// OFX section 2.5.4.2
+/** OFX section 2.5.4.2 */
 export interface MFACHALLENGE {
   mfaphraseid: string
   mfaphraselabel?: string
 }
 
-/// OFX section 2.5.4.5
+/** OFX section 2.5.4.5 */
 export interface MFACHALLENGEA {
   mfaphraseid: string
   mfaphrasea: string
 }
 
-/// OFX section 2.5.1.2
+/** OFX section 2.5.1.2 */
 export interface SONRQ {
   dtclient: Date
   userid?: string
@@ -90,7 +90,7 @@ export interface SONRQ {
   //    ofxextension
 }
 
-/// OFX section 2.5.1.3
+/** OFX section 2.5.1.3 */
 export interface SONRS {
   status: STATUS
   dtserver: Date
@@ -105,73 +105,73 @@ export interface SONRS {
   //    ofxextension
 }
 
-/// OFX section 2.5.2.1
+/** OFX section 2.5.2.1 */
 export interface PINCHRQ {
   userid: string
   userpass: string
 }
 
-/// OFX section 2.5.2.2
+/** OFX section 2.5.2.2 */
 export interface PINCHRS {
   userid: string
   dtchanged?: Date
 }
 
-/// OFX section 2.5.2.1
+/** OFX section 2.5.2.1 */
 export interface PINCHTRNRQ extends TrnRq {
   pinchrq: PINCHRQ
 }
 
-/// OFX section 2.5.2.2
+/** OFX section 2.5.2.2 */
 export interface PINCHTRNRS extends TrnRs {
 }
 
-/// OFX section 2.5.3.1
+/** OFX section 2.5.3.1 */
 export interface CHALLENGERQ {
   userid: string
   ficertid?: string
 }
 
-/// OFX section 2.5.3.2
+/** OFX section 2.5.3.2 */
 export interface CHALLENGERS {
   user: string
   nonce: string
   ficertid: string
 }
 
-/// OFX section 2.5.3.1
+/** OFX section 2.5.3.1 */
 export interface CHALLENGETRNRQ extends TrnRq {
   challengerq: CHALLENGERQ
 }
 
-/// OFX section 2.5.3.2
+/** OFX section 2.5.3.2 */
 export interface CHALLENGETRNRS extends TrnRs {
   challengers: CHALLENGERS
 }
 
-/// OFX section 2.5.4.1
+/** OFX section 2.5.4.1 */
 export interface MFACHALLENGERQ {
   dtclient: Date
 }
 
-/// OFX section 2.5.4.2
+/** OFX section 2.5.4.2 */
 export interface MFACHALLENGERS {
   mfachallenge?: MFACHALLENGE[]
 }
 
-/// OFX section 2.5.4.1
+/** OFX section 2.5.4.1 */
 export interface MFACHALLENGETRNRQ extends TrnRq {
 
   mfachallengerq: MFACHALLENGERQ
 }
 
-/// OFX section 2.5.4.2
+/** OFX section 2.5.4.2 */
 export interface MFACHALLENGETRNRS extends TrnRs {
 
   mfachallengers: MFACHALLENGERS
 }
 
-/// OFX section 2.5
+/** OFX section 2.5 */
 export interface SIGNONMSGSRQV1 {
   sonrq: SONRQ
   pinchtrnrq?: PINCHTRNRQ
@@ -179,7 +179,7 @@ export interface SIGNONMSGSRQV1 {
   mfachallengetrnrq?: MFACHALLENGETRNRQ
 }
 
-/// OFX section 2.5
+/** OFX section 2.5 */
 export interface SIGNONMSGSRSV1 {
   sonrs: SONRS
   pinchtrnrs?: PINCHTRNRS
@@ -187,12 +187,12 @@ export interface SIGNONMSGSRSV1 {
   mfachallengetrnrs?: MFACHALLENGETRNRS
 }
 
-/// OFX section 2.5.5
+/** OFX section 2.5.5 */
 export interface SIGNONMSGSETV1 {
   msgsetcore: MSGSETCORE
 }
 
-/// OFX section 2.5.5
+/** OFX section 2.5.5 */
 export interface SIGNONMSGSET {
   signonmsgsetv1: SIGNONMSGSETV1
 }

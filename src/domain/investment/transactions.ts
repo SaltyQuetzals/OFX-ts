@@ -32,13 +32,13 @@ export type INCOMETYPE =
   | 'MISC'
 
 
-/// OFX section 13.9.2.3
+/** OFX section 13.9.2.3 */
 export interface INVBANKTRAN {
   stmttrn: STMTTRN
   subacctfund: INVSUBACCT
 }
 
-/// OFX section 13.9.2.4.2
+/** OFX section 13.9.2.4.2 */
 export interface INVTRAN {
   fitid: String
   srvrtid?: String
@@ -48,7 +48,7 @@ export interface INVTRAN {
   memo?: String
 }
 
-/// OFX section 13.9.2.4.3
+/** OFX section 13.9.2.4.3 */
 export interface INVBUY {
   invtran: INVTRAN
   secid: SECID
@@ -72,7 +72,7 @@ export interface INVBUY {
   prioryearcontrib?: boolean
 }
 
-/// OFX section 13.9.2.4.3
+/** OFX section 13.9.2.4.3 */
 export interface INVSELL {
   invtran: INVTRAN
   secid: SECID
@@ -97,33 +97,33 @@ export interface INVSELL {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface BUYDEBT {
   invbuy: INVBUY
   accrdint?: number
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface BUYMF {
   invbuy: INVBUY
   buytype: BUYTYPE
   relfitid?: String
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface BUYOPT {
   invbuy: INVBUY
   optbuytype: OPTBUYTYPE
   shperctrct: number
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface BUYOTHER {
   invbuy: INVBUY
   buytype: BUYTYPE
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface BUYSTOCK {
   invbuy: INVBUY
   buytype: BUYTYPE
@@ -135,7 +135,7 @@ export type OPTACTION =
   | 'EXPIRE'
 
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface CLOSUREOPT {
   invtran: INVTRAN
   secid: SECID
@@ -147,7 +147,7 @@ export interface CLOSUREOPT {
   gain?: number
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface INCOME {
   invtran: INVTRAN
   secid: SECID
@@ -162,7 +162,7 @@ export interface INCOME {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface INVEXPENSE {
   invtran: INVTRAN
   secid: SECID
@@ -174,7 +174,7 @@ export interface INVEXPENSE {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface JRNLFUND {
   invtran: INVTRAN
   subacctto: INVSUBACCT
@@ -182,7 +182,7 @@ export interface JRNLFUND {
   total: number
 }
 
-/// / OFX section 13.9.2.4.4
+/** / OFX section 13.9.2.4.4 */
 export interface JRNLSEC {
   invtran: INVTRAN
   secid: SECID
@@ -191,7 +191,7 @@ export interface JRNLSEC {
   units: number
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface MARGININTEREST {
   invtran: INVTRAN
   total: number
@@ -200,7 +200,7 @@ export interface MARGININTEREST {
   origcurrency?: ORIGCURRENCY
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface REINVEST {
   invtran: INVTRAN
   secid: SECID
@@ -219,7 +219,7 @@ export interface REINVEST {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface RETOFCAP {
   invtran: INVTRAN
   secid: SECID
@@ -237,14 +237,14 @@ export type SELLREASON =
   | 'MATURITY'
 
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SELLDEBT {
   invsell: INVSELL
   sellreason: SELLREASON
   accrdint?: number
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SELLMF {
   invsell: INVSELL
   selltype: SELLTYPE
@@ -262,7 +262,7 @@ export type SECURED =
   | 'NAKED'
   | 'COVERED'
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SELLOPT {
   invsell: INVSELL
   optselltype: OPTSELLTYPE
@@ -272,18 +272,18 @@ export interface SELLOPT {
   secured?: SECURED
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SELLOTHER {
   invsell: INVSELL
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SELLSTOCK {
   invsell: INVSELL
   selltype: SELLTYPE
 }
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface SPLIT {
   invtran: INVTRAN
   secid: SECID
@@ -308,7 +308,7 @@ export type POSTYPE =
   | 'LONG'
 
 
-/// OFX section 13.9.2.4.4
+/** OFX section 13.9.2.4.4 */
 export interface TRANSFER {
   invtran: INVTRAN
   secid: SECID
@@ -323,7 +323,7 @@ export interface TRANSFER {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.2
+/** OFX section 13.9.2.2 */
 export interface INVTRANLIST extends TranList {
   dtstart: Date
   invbanktran?: INVBANKTRAN[]

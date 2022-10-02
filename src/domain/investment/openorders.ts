@@ -20,7 +20,7 @@ export type RESTRICTION =
   | 'MINUNITS'
   | 'NONE'
 
-/// OFX section 13.9.2.5.1 - General open order aggregate
+/** OFX section 13.9.2.5.1 - General open order aggregate */
 export interface OO {
   fitid: String
   srvrtid?: String
@@ -37,44 +37,44 @@ export interface OO {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOBUYDEBT {
   oo: OO
   auction: boolean
   dtauction?: Date
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOBUYMF {
   oo: OO
   buytype: BUYTYPE
   unittype: UNITTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOBUYOPT {
   oo: OO
   optbuytype: OPTBUYTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOBUYOTHER {
   oo: OO
   unittype: UNITTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOBUYSTOCK {
   oo: OO
   buytype: BUYTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOSELLDEBT {
   oo: OO
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOSELLMF {
   oo: OO
   selltype: SELLTYPE
@@ -82,25 +82,25 @@ export interface OOSELLMF {
   sellall: boolean
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOSELLOPT {
   oo: OO
   optselltype: OPTSELLTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOSELLOTHER {
   oo: OO
   unittype: UNITTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface OOSELLSTOCK {
   oo: OO
   selltype: SELLTYPE
 }
 
-/// OFX section 13.9.2.5.2
+/** OFX section 13.9.2.5.2 */
 export interface SWITCHMF {
   oo: OO
   secid: SECID
@@ -108,7 +108,7 @@ export interface SWITCHMF {
   switchall: boolean
 }
 
-/// OFX section 13.9.2.2
+/** OFX section 13.9.2.2 */
 export interface INVOOLIST {
   oobuydebt?: OOBUYDEBT[]
   oobuymf?: OOBUYMF[]

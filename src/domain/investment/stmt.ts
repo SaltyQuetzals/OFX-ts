@@ -7,7 +7,7 @@ import { INVPOSLIST } from './positions'
 import { SECID } from './securities'
 import { INVTRANLIST } from './transactions'
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export type LOANPMTFREQUENCY =
   | 'WEEKLY'
   | 'BIWEEKLY'
@@ -21,13 +21,13 @@ export type LOANPMTFREQUENCY =
   | 'OTHER'
 
 
-/// OFX section 13.9.1.2
+/** OFX section 13.9.1.2 */
 export interface INCPOS {
   dtasof?: Date
   include: boolean
 }
 
-/// OFX section 13.9.1.2
+/** OFX section 13.9.1.2 */
 export interface INVSTMTRQ {
   invacctfrom: INVACCTFROM
   inctran?: INCTRAN
@@ -39,7 +39,7 @@ export interface INVSTMTRQ {
   inctranimg?: boolean
 }
 
-/// OFX section 13.9.2.7
+/** OFX section 13.9.2.7 */
 export interface INVBAL {
   availcash: number
   marginbalance: number
@@ -48,7 +48,7 @@ export interface INVBAL {
   ballist?: BALLIST
 }
 
-/// OFX section 13.9.2.9
+/** OFX section 13.9.2.9 */
 export interface INV401KBAL {
   cashbal?: number
   pretax?: number
@@ -62,7 +62,7 @@ export interface INV401KBAL {
   ballist?: BALLIST
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface MATCHINFO {
   matchpct: number
   maxmatchamt?: number
@@ -72,7 +72,7 @@ export interface MATCHINFO {
   basematchpct?: number
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface CONTRIBSECURITY {
   secid: SECID
   pretaxcontribpct?: number
@@ -91,18 +91,18 @@ export interface CONTRIBSECURITY {
   othernonvestamt?: number
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface CONTRIBINFO {
   contribsecurity?: CONTRIBSECURITY[]
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface VESTINFO {
   vestdate?: Date
   vestpct: number
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface LOANINFO {
   loanid: String
   loandesc?: String
@@ -132,13 +132,13 @@ export interface Investment401KSubaccount {
   total: number
 }
 
-/// OFX section 13.9.3.1
+/** OFX section 13.9.3.1 */
 export interface CONTRIBUTIONS extends Investment401KSubaccount {}
 
-/// OFX section 13.9.3.2
+/** OFX section 13.9.3.2 */
 export interface WITHDRAWALS extends Investment401KSubaccount {}
 
-/// OFX section 13.9.3.3
+/** OFX section 13.9.3.3 */
 export interface EARNINGS extends Investment401KSubaccount {}
 
 export interface ToDate {
@@ -149,23 +149,23 @@ export interface ToDate {
   earnings?: EARNINGS
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface YEARTODATE extends ToDate {}
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface INCEPTODATE extends ToDate {}
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface PERIODTODATE extends ToDate {}
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface INV401KSUMMARY {
   yeartodate: YEARTODATE
   inceptodate?: INCEPTODATE
   periodtodate?: PERIODTODATE
 }
 
-/// OFX section 13.9.3
+/** OFX section 13.9.3 */
 export interface INV401K {
   employername: String
   planid?: String
@@ -182,7 +182,7 @@ export interface INV401K {
   inv401ksummary?: INV401KSUMMARY
 }
 
-/// OFX section 13.9.2.1
+/** OFX section 13.9.2.1 */
 export interface INVSTMTRS {
   dtasof: Date
   curdef: CurrencyCodes
@@ -196,12 +196,12 @@ export interface INVSTMTRS {
   inv401kbal?: INV401KBAL
 }
 
-/// OFX section 13.9.1.1
+/** OFX section 13.9.1.1 */
 export interface INVSTMTTRNRQ extends TrnRq {
   invstmtrq: INVSTMTRQ
 }
 
-/// OFX section 13.9.2.1
+/** OFX section 13.9.2.1 */
 export interface INVSTMTTRNRS extends TrnRs {
   invstmtrs?: INVSTMTRS
 }

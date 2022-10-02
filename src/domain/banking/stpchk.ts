@@ -1,18 +1,18 @@
 ///
-/// Bank stop check - OFX Section 11.6
+/** Bank stop check - OFX Section 11.6 */
 ///
 
 import { TrnRq, TrnRs } from '../base/wrappers'
 import { CURRENCY, ORIGCURRENCY, CurrencyCodes } from '../i18n'
 import { BANKACCTFROM } from './stmt'
 
-/// OFX section 11.6.1.1.1
+/** OFX section 11.6.1.1.1 */
 export interface CHKRANGE {
   chknumstart: string
   chknumend?: string
 }
 
-/// OFX section 11.6.1.1.2
+/** OFX section 11.6.1.1.2 */
 export interface CHKDESC {
   name: string
   chknum?: string
@@ -20,14 +20,14 @@ export interface CHKDESC {
   trnamt?: number
 }
 
-/// OFX section 11.6.1.1
+/** OFX section 11.6.1.1 */
 export interface STPCHKRQ {
   bankacctfrom: BANKACCTFROM
   chkrange?: CHKRANGE
   chkdesc?: CHKDESC
 }
 
-/// OFX section 11.6.1.2.1
+/** OFX section 11.6.1.2.1 */
 export interface STPCHKNUM {
   checknum: string
   name?: string
@@ -39,7 +39,7 @@ export interface STPCHKNUM {
   origcurrency?: ORIGCURRENCY
 }
 
-/// OFX section 11.6.1.1
+/** OFX section 11.6.1.1 */
 export interface STPCHKRS {
   curdef: CurrencyCodes
   bankacctfrom: BANKACCTFROM
@@ -48,12 +48,12 @@ export interface STPCHKRS {
   feemsg: string
 }
 
-/// OFX section 11.6.1.1
+/** OFX section 11.6.1.1 */
 export interface STPCHKTRNRQ extends TrnRq {
   stpchkrq: STPCHKRQ
 }
 
-/// OFX section 11.6.1.2
+/** OFX section 11.6.1.2 */
 export interface STPCHKTRNRS extends TrnRs {
   stpchkrs: STPCHKRS
 }

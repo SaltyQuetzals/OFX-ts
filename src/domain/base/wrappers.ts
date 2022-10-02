@@ -22,8 +22,8 @@ export interface TrnRs {
   ofxextension?: OFXEXTENSION
 }
 
-/// Base interface for OFX *TRANLIST
-/// OFX section 3.2.7
+/** Base interface for OFX *TRANLIST */
+/** OFX section 3.2.7 */
 export interface TranList {
   dtstart: Date
   dtend: Date

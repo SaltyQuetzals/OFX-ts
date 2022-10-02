@@ -8,7 +8,7 @@ export type POSTYPE =
   | 'LONG'
 
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface INVPOS {
   secid: SECID
   heldinacct: INVSUBACCT
@@ -23,12 +23,12 @@ export interface INVPOS {
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface POSDEBT {
   invpos: INVPOS
 }
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface POSMF {
   invpos: INVPOS
   unitsstreet?: number
@@ -41,18 +41,18 @@ export type SECURED =
   | 'NAKED'
   | 'COVERED'
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface POSOPT {
   invpos: INVPOS
   secured?: SECURED
 }
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface POSOTHER {
   invpos: INVPOS
 }
 
-/// OFX section 13.9.2.6.1
+/** OFX section 13.9.2.6.1 */
 export interface POSSTOCK {
   invpos: INVPOS
   unitsstreet?: number
@@ -60,7 +60,7 @@ export interface POSSTOCK {
   reinvdiv?: boolean
 }
 
-/// OFX section 13.9.2.2
+/** OFX section 13.9.2.2 */
 export interface INVPOSLIST {
   posdebt?: POSDEBT[]
   posmf?: POSMF[]

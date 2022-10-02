@@ -50,7 +50,7 @@ export type DAYS =
   |'SUNDAY'
 
 
-/// OFX section 11.13.1.1.1
+/** OFX section 11.13.1.1.1 */
 export interface BANKMSGSRQV1 {
   stmttrnrq?: STMTTRNRQ[]
   stmtendtrnrq?: STMTENDTRNRQ[]
@@ -64,7 +64,7 @@ export interface BANKMSGSRQV1 {
   bankmailsyncrq?: BANKMAILSYNCRQ[]
 }
 
-/// OFX section 11.13.1.1.2
+/** OFX section 11.13.1.1.2 */
 export interface BANKMSGSRSV1 {
   stmttrnrs?: STMTTRNRS[]
   stmtendtrnrs?: STMTENDTRNRS[]
@@ -78,10 +78,10 @@ export interface BANKMSGSRSV1 {
   bankmailsyncrs?: BANKMAILSYNCRS[]
 }
 
-/// OFX section 11.13.2.2
+/** OFX section 11.13.2.2 */
 export interface XFERPROF {
   procdaysoff?: DAYS[]
-  /// Time only
+  /** Time only */
   procendtm: Date
   cansched: boolean
   canrecur: boolean
@@ -95,23 +95,23 @@ export interface XFERPROF {
   dfltdaystopay: number
 }
 
-/// OFX section 11.13.2.3
+/** OFX section 11.13.2.3 */
 export interface STPCHKPROF {
   procdaysoff?: DAYS[]
-  /// Time only
+  /** Time only */
   procendtm: Date
   canuserange: boolean
   canusedesc: boolean
   stpchkfee: number
 }
 
-/// OFX section 11.13.2.4
+/** OFX section 11.13.2.4 */
 export interface EMAILPROF {
   canemail: boolean
   cannotify: boolean
 }
 
-/// OFX section 11.13.2.1
+/** OFX section 11.13.2.1 */
 export interface BANKMSGSETV1 {
   msgsetcore: MSGSETCORE
   invalidaccttype?: AccountType[]
@@ -123,24 +123,24 @@ export interface BANKMSGSETV1 {
   //  imageprof
 }
 
-/// OFX section 7.3
+/** OFX section 7.3 */
 export interface BANKMSGSET {
   bankmsgsetv1: BANKMSGSETV1
 }
 
-/// OFX section 11.13.1.1.1
+/** OFX section 11.13.1.1.1 */
 export interface CREDITCARDMSGSRQV1 {
   ccstmttrnrq?: CCSTMTTRNRQ[]
   ccstmtendtrnrq?: CCSTMTENDTRNRQ[]
 }
 
-/// OFX section 11.13.1.1.2
+/** OFX section 11.13.1.1.2 */
 export interface CREDITCARDMSGSRSV1 {
   ccstmttrnrs?: CCSTMTTRNRS[]
   ccstmtendtrnrs?: CCSTMTENDTRNRS[]
 }
 
-/// OFX section 11.13.3
+/** OFX section 11.13.3 */
 export interface CREDITCARDMSGSETV1 {
   msgsetcore: MSGSETCORE
   closingavail: boolean
@@ -148,12 +148,12 @@ export interface CREDITCARDMSGSETV1 {
   //  imageprof:
 }
 
-/// OFX section 11.13.3
+/** OFX section 11.13.3 */
 export interface CREDITCARDMSGSET {
   creditcardmsgsetv1: CREDITCARDMSGSETV1
 }
 
-/// OFX section 11.13.1.3.1
+/** OFX section 11.13.1.3.1 */
 export interface INTERXFERMSGSRQV1 {
   intertrnrq?: INTERTRNRQ[]
   recintertrnrq?: RECINTERTRNRQ[]
@@ -161,7 +161,7 @@ export interface INTERXFERMSGSRQV1 {
   recintersyncrq?: RECINTERSYNCRQ[]
 }
 
-/// OFX section 11.13.1.3.2
+/** OFX section 11.13.1.3.2 */
 export interface INTERXFERMSGSRSV1 {
   intertrnrs?: INTERTRNRS[]
   recintertrnrs?: RECINTERTRNRS[]
@@ -169,7 +169,7 @@ export interface INTERXFERMSGSRSV1 {
   recintersyncrs?: RECINTERSYNCRS[]
 }
 
-/// OFX section 11.13.4
+/** OFX section 11.13.4 */
 export interface INTERXFERMSGSETV1 {
   msgsetcore: MSGSETCORE
   xferprof: XFERPROF
@@ -179,35 +179,35 @@ export interface INTERXFERMSGSETV1 {
   intlxferfee: number
 }
 
-/// OFX section 11.13.4
+/** OFX section 11.13.4 */
 export interface INTERXFERMSGSET {
   interxfermsgsetv1: INTERXFERMSGSETV1
 }
 
-/// OFX section 11.13.1.4.1
+/** OFX section 11.13.1.4.1 */
 export interface WIREXFERMSGSRQV1 {
   wiretrnrq?: WIRETRNRQ[]
   wiresyncrq?: WIRESYNCRQ[]
 }
 
-/// OFX section 11.13.1.4.2
+/** OFX section 11.13.1.4.2 */
 export interface WIREXFERMSGSRSV1 {
   wiretrnrs?: WIRETRNRS[]
   wiresyncrs?: WIRESYNCRS[]
 }
 
-/// OFX section 11.13.5
+/** OFX section 11.13.5 */
 export interface WIREXFERMSGSETV1 {
   msgsetcore: MSGSETCORE
   procdaysoff?: DAYS[]
-  /// Time only
+  /** Time only */
   procendtm: Date
   cansched: boolean
   domxferfee: number
   intlxferfee: number
 }
 
-/// OFX section 11.13.5
+/** OFX section 11.13.5 */
 export interface WIREXFERMSGSET {
   wirexfermsgsetv1: WIREXFERMSGSETV1
 }

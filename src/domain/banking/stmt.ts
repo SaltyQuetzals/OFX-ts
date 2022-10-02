@@ -1,5 +1,5 @@
 ///
-/// Bank statement download - OFX Section 11.4
+/** Bank statement download - OFX Section 11.4 */
 
 import { TranList, TrnRq, TrnRs } from '../base/wrappers'
 import { SVCSTATUS, BAL } from '../common'
@@ -9,14 +9,14 @@ import { CountryCodes, CURRENCY, ORIGCURRENCY, CurrencyCodes } from '../i18n'
 export type Investment401kSource =
   | 'PRETAX' | 'AFTERTAX' | 'MATCH' | 'PROFITSHARING' | 'ROLLOVER' | 'OTHERVEST' | 'OTHERNONVEST'
 
-/// OFX section 11.3.1.1
+/** OFX section 11.3.1.1 */
 export type AccountType =
   | 'CHECKING' | 'SAVINGS' | 'MONEYMRKT' | 'CREDITLINE' | 'CD'
 
 export type TransactionType =
   | 'CREDIT' | 'DEBIT' | 'INT' | 'DIV' | 'FEE' | 'SRVCHG' | 'DEP' | 'ATM' | 'POS' | 'XFER' | 'CHECK' | 'PAYMENT' | 'CASH' | 'DIRECTDEP' | 'DIRECTDEBIT' | 'REPEATPMT' | 'OTHER'
 
-/// OFX section 11.3.1
+/** OFX section 11.3.1 */
 export interface BANKACCTFROM {
   bankid: string
   branchid?: string
@@ -25,7 +25,7 @@ export interface BANKACCTFROM {
   acctkey?: string
 }
 
-/// OFX section 11.3.1
+/** OFX section 11.3.1 */
 export interface BANKACCTTO {
   bankid: string
   branchid?: string
@@ -34,7 +34,7 @@ export interface BANKACCTTO {
   acctkey?: string
 }
 
-/// OFX section 11.3.3
+/** OFX section 11.3.3 */
 export interface BANKACCTINFO {
   bankacctfrom: BANKACCTFROM
   suptxdl: boolean
@@ -43,19 +43,19 @@ export interface BANKACCTINFO {
   svcstatus: SVCSTATUS
 }
 
-/// OFX section 11.3.2
+/** OFX section 11.3.2 */
 export interface CCACCTFROM {
   acctid: string
   acctkey?: string
 }
 
-/// OFX section 11.3.2
+/** OFX section 11.3.2 */
 export interface CCACCTTO {
   acctid: string
   acctkey?: string
 }
 
-/// OFX section 11.3.4
+/** OFX section 11.3.4 */
 export interface CCACCTINFO {
   ccacctfrom: CCACCTFROM
   supxdl: boolean
@@ -64,14 +64,14 @@ export interface CCACCTINFO {
   svcstatus: SVCSTATUS
 }
 
-/// OFX section 11.4.2.1
+/** OFX section 11.4.2.1 */
 export interface INCTRAN {
   dtstart?: Date
   dtend?: Date
   include: boolean
 }
 
-/// OFX section 11.4.2.1
+/** OFX section 11.4.2.1 */
 export interface STMTRQ {
   bankacctfrom: BANKACCTFROM
   inctran?: INCTRAN
@@ -79,7 +79,7 @@ export interface STMTRQ {
   inctranimg?: boolean
 }
 
-/// OFX section 12.5.2.1
+/** OFX section 12.5.2.1 */
 export interface PAYEE {
   name: string
   addr1: string
@@ -96,7 +96,7 @@ export type CorrectAction =
   | 'REPLACE'
   | 'DELETE'
 
-/// OFX section 11.4.3
+/** OFX section 11.4.3 */
 export interface STMTTRN {
   trntype: TransactionType
   dtposted: Date
@@ -115,20 +115,20 @@ export interface STMTTRN {
   payee?: PAYEE
   extdname?: string
 
-  /// Either bankacctto will be present, or ccacctto will be present, not both.
+  /** Either bankacctto will be present, or ccacctto will be present, not both. */
   bankacctto?: BANKACCTTO
-  /// Either bankacctto will be present, or ccacctto will be present, not both.
+  /** Either bankacctto will be present, or ccacctto will be present, not both. */
   ccacctto?: CCACCTTO
 
-  /// Either currency will be present, or origcurrency will be present, not both.
+  /** Either currency will be present, or origcurrency will be present, not both. */
   currency?: CURRENCY
 
-  /// Either currency will be present, or origcurrency will be present, not both.
+  /** Either currency will be present, or origcurrency will be present, not both. */
   origcurrency?: ORIGCURRENCY
   inv401ksource?: Investment401kSource
 }
 
-/// OFX section 11.4.2.2
+/** OFX section 11.4.2.2 */
 export interface BANKTRANLIST extends TranList {
   dtstart: Date
   dtend: Date
@@ -136,24 +136,24 @@ export interface BANKTRANLIST extends TranList {
   stmttrn: STMTTRN[]
 }
 
-/// OFX section 11.4.2.2
+/** OFX section 11.4.2.2 */
 export interface LEDGERBAL {
   balamt: number
   dtasof: Date
 }
 
-/// OFX section 11.4.2.2
+/** OFX section 11.4.2.2 */
 export interface AVAILBAL {
   balamt: number
   dtasof: Date
 }
 
-/// OFX section 11.4.2.2 & 13.9.2.7
+/** OFX section 11.4.2.2 & 13.9.2.7 */
 export interface BALLIST {
   bal: BAL[]
 }
 
-/// OFX section 11.4.2.2
+/** OFX section 11.4.2.2 */
 export interface STMTRS {
   curdef: CurrencyCodes
   bankacctfrom: BANKACCTFROM
@@ -167,24 +167,24 @@ export interface STMTRS {
   mktginfo?: string
 }
 
-/// OFX section 11.4.2.1
+/** OFX section 11.4.2.1 */
 export interface STMTTRNRQ extends TrnRq {
   stmtrq: STMTRQ
 }
 
-/// OFX section 11.4.2.2
+/** OFX section 11.4.2.2 */
 export interface STMTTRNRS extends TrnRs {
   stmtrs: STMTRS
 }
 
-/// OFX section 11.4.3.2
+/** OFX section 11.4.3.2 */
 export interface REWARDINFO {
   name: string
   rewardbal: number
   rewardearned?: number
 }
 
-/// OFX section 11.4.3.1
+/** OFX section 11.4.3.1 */
 export interface CCSTMTRQ {
   ccacctfrom: CCACCTFROM
   inctran?: INCTRAN
@@ -192,7 +192,7 @@ export interface CCSTMTRQ {
   inctranimg?: boolean
 }
 
-/// OFX section 11.4.3.2
+/** OFX section 11.4.3.2 */
 export interface CCSTMTRS {
   curdef: CurrencyCodes
   ccacctfrom: CCACCTFROM
@@ -209,12 +209,12 @@ export interface CCSTMTRS {
   mktginfo?: string
 }
 
-/// OFX section 11.4.3.1
+/** OFX section 11.4.3.1 */
 export interface CCSTMTTRNRQ extends TrnRq {
   ccstmtrq: CCSTMTRQ
 }
 
-/// OFX section 11.4.3.2
+/** OFX section 11.4.3.2 */
 export interface CCSTMTTRNRS extends TrnRs {
   ccstmtrs?: CCSTMTRS
 }

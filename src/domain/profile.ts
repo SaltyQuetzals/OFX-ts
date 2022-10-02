@@ -1,5 +1,5 @@
 ///
-/// FI Profile - OFX section 7
+/** FI Profile - OFX section 7 */
 ///
 
 import { BANKMSGSET, CREDITCARDMSGSET, INTERXFERMSGSET, WIREXFERMSGSET } from './banking/msgsets'
@@ -10,17 +10,17 @@ import { CountryCodes } from './i18n'
 import { INVSTMTMSGSET, SECLISTMSGSET } from './investment/msgsets'
 import { SIGNONMSGSET } from './signon'
 
-/// OFX section 7.3
+/** OFX section 7.3 */
 export interface PROFMSGSETV1 {
   msgsetcore: MSGSETCORE
 }
 
-/// OFX section 7.3
+/** OFX section 7.3 */
 export interface PROFMSGSET {
   profmsgsetv1: PROFMSGSETV1
 }
 
-/// OFX section 7.2
+/** OFX section 7.2 */
 export interface MSGSETLIST {
   signonmsgset?: SIGNONMSGSET[]
   // signupmsgset?: SIGNUPMSGSET[]
@@ -45,7 +45,7 @@ export type PasswordCharacterType =
   | 'ALPHAANDNUMERIC'
 
 
-/// OFX section 7.2.2
+/** OFX section 7.2.2 */
 export interface SIGNONINFO {
 
   signonrealm: String
@@ -67,7 +67,7 @@ export interface SIGNONINFO {
   accesstokenreq?: boolean
 }
 
-/// OFX section 7.2
+/** OFX section 7.2 */
 export interface SIGNONINFOLIST {
   signoninfo?: SIGNONINFO[]
 
@@ -79,13 +79,13 @@ export type ClientRouting =
   | 'MSGSET'
 
 
-/// OFX section 7.1.5
+/** OFX section 7.1.5 */
 export interface PROFRQ {
   clientrouting: ClientRouting
   dtprofup: Date
 }
 
-/// OFX section 7.2
+/** OFX section 7.2 */
 export interface PROFRS {
   msgsetlist: MSGSETLIST
   signoninfolist: SIGNONINFOLIST
@@ -105,7 +105,7 @@ export interface PROFRS {
   email?: String
 }
 
-/// OFX section 7.1.5
+/** OFX section 7.1.5 */
 export interface PROFTRNRQ extends TrnRq {
   profrq: PROFRQ
 }

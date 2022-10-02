@@ -2,7 +2,7 @@ import { TrnRq, TrnRs } from '../base/wrappers'
 import { CURRENCY, ORIGCURRENCY, CurrencyCodes } from '../i18n'
 import { BANKACCTFROM, REWARDINFO, CCACCTFROM } from './stmt'
 
-/// OFX section 11.5.2
+/** OFX section 11.5.2 */
 export interface CLOSING {
   fitid: string
   dtopen?: Date
@@ -22,37 +22,37 @@ export interface CLOSING {
   origcurrency?: ORIGCURRENCY
 }
 
-/// OFX section 11.5.1
+/** OFX section 11.5.1 */
 export interface STMTENDRQ {
   bankacctfrom: BANKACCTFROM
   dtstart?: Date
   dtend?: Date
 }
 
-/// OFX section 11.5.2
+/** OFX section 11.5.2 */
 export interface STMTENDRS {
   curdef: CurrencyCodes
   bankacctfrom: BANKACCTFROM
   closing?: CLOSING
 }
 
-/// OFX section 11.5.1
+/** OFX section 11.5.1 */
 export interface STMTENDTRNRQ extends TrnRq {
   stmtendrq: STMTENDRQ
 }
 
-/// OFX section 11.5.2
+/** OFX section 11.5.2 */
 export interface STMTENDTRNRS extends TrnRs {
   stmtendrs?: STMTENDRS
 }
 
-/// OFX section 11.3.10
+/** OFX section 11.3.10 */
 export interface LASTPMTINFO {
   lastpmtdate: Date
   lastpmtamt: number
 }
 
-/// OFX section 11.5.4.2
+/** OFX section 11.5.4.2 */
 export interface CCCLOSING {
   fitid: string
   dtopen?: Date
@@ -85,7 +85,7 @@ export interface CCCLOSING {
   origcurrency?: ORIGCURRENCY
 }
 
-/// OFX section 11.5.3
+/** OFX section 11.5.3 */
 export interface CCSTMTENDRQ {
   ccacctfrom: CCACCTFROM
   dtstart?: Date
@@ -93,14 +93,14 @@ export interface CCSTMTENDRQ {
   incstmtimg?: boolean
 }
 
-/// OFX section 11.5.4
+/** OFX section 11.5.4 */
 export interface CCSTMTENDRS {
   curdef: CurrencyCodes
   ccacctfrom: CCACCTFROM
   ccclosing?: [CCCLOSING]
 }
 
-/// OFX section 11.4.3.1
+/** OFX section 11.4.3.1 */
 export interface CCSTMTENDTRNRQ extends TrnRq {
   ccstmtendrq: CCSTMTENDRQ
 }

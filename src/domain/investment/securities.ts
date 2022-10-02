@@ -10,25 +10,25 @@ export type ASSETCLASS =
   | 'MONEYMRKT'
   | 'OTHER'
 
-/// OFX section 13.8.1
+/** OFX section 13.8.1 */
 export interface SECID {
   uniqueid: string
   uniqueidtype: string
 }
 
-/// OFX section 13.8.2.2
+/** OFX section 13.8.2.2 */
 export interface SECRQ {
   secid?: SECID
   ticker?: string
   fiid?: string
 }
 
-/// OFX section 13.8.2.2
+/** OFX section 13.8.2.2 */
 export interface SECLISTRQ {
   secrq?: SECRQ[]
 }
 
-/// OFX section 13.8.5.1
+/** OFX section 13.8.5.1 */
 export interface SECINFO {
   secid: SECID
   secname: string
@@ -65,7 +65,7 @@ export type CALLTYPE =
   | 'MATURITY'
 
 
-/// OFX section 13.8.5.2
+/** OFX section 13.8.5.2 */
 export interface DEBTINFO {
   secinfo: SECINFO
   parvalue: number
@@ -84,24 +84,24 @@ export interface DEBTINFO {
   fiassetclass?: string
 }
 
-/// OFX section 13.8.5.3
+/** OFX section 13.8.5.3 */
 export interface PORTION {
   assetclass: ASSETCLASS
   percent: number
 }
 
-/// OFX section 13.8.5.3
+/** OFX section 13.8.5.3 */
 export interface MFASSETCLASS {
   portion?: PORTION[]
 }
 
-/// OFX section 13.8.5.3
+/** OFX section 13.8.5.3 */
 export interface FIPORTION {
   fiassetclass: string
   percent: number
 }
 
-/// OFX section 13.8.5.3
+/** OFX section 13.8.5.3 */
 export interface FIMFASSETCLASS {
   fiportion?: FIPORTION[]
 }
@@ -111,7 +111,7 @@ export type MFTYPE =
   | 'CLOSENED'
   | 'OTHER'
 
-/// OFX section 13.8.5.3
+/** OFX section 13.8.5.3 */
 export interface MFINFO {
   secinfo: SECINFO
   mftype?: MFTYPE
@@ -126,7 +126,7 @@ export type OPTTYPE =
   | 'PUT'
 
 
-/// OFX section 13.8.5.4
+/** OFX section 13.8.5.4 */
 export interface OPTINFO {
   secinfo: SECINFO
   opttype: OPTTYPE
@@ -138,7 +138,7 @@ export interface OPTINFO {
   fiassetclass?: string
 }
 
-/// OFX section 13.8.5.5
+/** OFX section 13.8.5.5 */
 export interface OTHERINFO {
   secinfo: SECINFO
   typedesc?: string
@@ -153,7 +153,7 @@ export type STOCKTYPE =
   | 'OTHER'
 
 
-/// OFX section 13.8.5.6
+/** OFX section 13.8.5.6 */
 export interface STOCKINFO {
   secinfo: SECINFO
   stocktype?: STOCKTYPE
@@ -164,7 +164,7 @@ export interface STOCKINFO {
   fiassetclass?: string
 }
 
-/// OFX section 13.8.4.4
+/** OFX section 13.8.4.4 */
 export interface SECLIST {
   debtinfo?: DEBTINFO[]
   mfinfo?: MFINFO[]
@@ -173,16 +173,16 @@ export interface SECLIST {
   stockinfo?: STOCKINFO[]
 }
 
-/// OFX section 13.8.2.1
+/** OFX section 13.8.2.1 */
 export interface SECLISTTRNRQ extends TrnRq {
   seclistrq: SECLISTRQ
 }
 
-/// OFX section 13.8.2.2
+/** OFX section 13.8.2.2 */
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface SECLISTRS { }
 
-/// OFX section 13.8.2.1
+/** OFX section 13.8.2.1 */
 export interface SECLISTTRNRS extends TrnRs {
   seclistrs?: SECLISTRS
 }
